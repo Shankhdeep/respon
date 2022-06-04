@@ -28,7 +28,7 @@ function SectionLeftCard(props) {
     return (
         
         <section className='top-heading'  style={{ marginTop:"2rem", paddingBottom:"2rem", paddingTop:"1rem" }} >
-            <h4 style={{ fontSize: "15px", marginLeft: "10px", display: "inline-block", fontWeight:"600" }}>Top Stories <div style={{ background: "red", display: "inline-block", width: "670px", height: "3.5px", marginBottom:"3px", marginLeft:"15px" }}></div></h4>
+            <h4 style={{ fontSize: "15px", marginLeft: "10px", display: "inline-block", fontWeight:"600" }}>Top Stories <div className='line' style={{ background: "red", display: "inline-block", width: "670px", height: "3.5px", marginBottom:"3px", marginLeft:"15px" }}></div></h4>
             {
                      props.data?(
                          <>

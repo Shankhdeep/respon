@@ -24,7 +24,7 @@ function SectionrightCard(props) {
          else return s;
       }
     return (
-        <div className="pov-card" style={{minHeight:"21rem", marginTop:"2rem", paddingTop:"1rem" }}>
+        <div className="pov-card" style={{minHeight:"0rem", marginTop:"2rem", paddingTop:"1rem",position:"relative", display:"inline-block" }}>
             <h4 style={{ fontSize: "15px", marginLeft: "6px",marginRight: "8px", display: "inline-block", fontWeight:"600" }}>Pov <div style={{ background: "red", display: "inline-block", width: "240px", height: "3.5px", marginBottom:"3px", marginLeft:"10px" }}></div></h4>
            { props.data?(
             <div className="row">

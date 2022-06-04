@@ -30,7 +30,7 @@ function Section4_right(props) {
 
             <div className="row">
                 <div className="col-md-6">
-                    <div className="card my-2" style={{maxWidth:"16rem", marginLeft:"3px"}}>
+                    <div className="card-my-2" style={{maxWidth:"16rem", marginLeft:"3px"}}>
                         <img src={props.data[2].image_url} onError={(e)=>{e.target.onerror = null; e.target.src="./def.jpg"}} alt="" />
                     </div>
                 </div>

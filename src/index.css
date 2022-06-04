@@ -28,7 +28,7 @@ body {
     /* padding-right: 4.5rem; */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 421px) and (max-width: 768px) {
     .top {
         margin-bottom: 5px;
         display: block;
@@ -109,7 +109,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
     .top {
         margin-bottom: 5px;
         display: block;
@@ -188,8 +188,85 @@ body {
         padding: 0;
         /* margin-left: 25rem; */
     }
+    .line {
+        left: 4rem;
+    }
+    .top-heading {
+        /* background-color: aqua; */
+        display: block;
+        max-width: min-content;
+        max-height: 60rem;
+    }
+    .row {
+        /* background-color: bisque; */
+        text-align: left;
+        max-height: max-content;
+        width: 100%;
+    }
+    .col-md-6 {
+        /* background-color: aliceblue; */
+        text-align: left;
+        max-width: min-content;
+        padding: 1rem;
+    }
+    .card-left {
+        /* background-color: #ff3030; */
+        text-align: justify;
+        margin-top: 1rem;
+    }
+.card-right{
+    /* background-color: blue; */
+    width: 15rem;
+    padding-bottom: 3rem;
+}
+.pov-card {
+    /* background-color: aqua; */
+    margin-left: 48rem;
+    margin-bottom: -54rem;
+    top: -31rem;
+}
+.card-section2-main{
+    /* background-color:cyan; */
+    width: min-content;
+    margin-bottom: -4rem;
+}
+.col-md-3{
+    /* background-color: gray; */
+    display: block;
+    width: min-content;
+    padding-right: 10rem;
+}
+.card-section2-my-2{
+    /* background-color: greenyellow; */
+width: 6rem;
+}
+.card-body-section2-my-2{
+    /* background-color: blueviolet; */
+    width: 15rem;
+}
+.card-section4-left-main{
+    /* background-color: plum; */
+    width: 30rem;
+}
+.section4-right-main{
+    /* background-color: palegreen; */
+    margin-left: 35rem;
+    margin-top: -7rem;
+}
+.card-section5-main{
+    /* background-color: tan; */
+   max-height: min-content;
+}
+.my-1{
+    /* background-color: yellow; */
+    max-block-size: 56px;
+}
+.col-md-6{
+    /* background-color: indianred; */
+    
 }
 
+}
 .icons p {
     font-size: 0.7em;
     padding-left: 40px;
