@@ -28,7 +28,7 @@ body {
     /* padding-right: 4.5rem; */
 }
 
-@media only screen and (min-width: 421px) and (max-width: 768px) {
+@media only screen and (min-width: 421px) and (max-width: 820px) {
     .top {
         margin-bottom: 5px;
         display: block;
@@ -107,9 +107,101 @@ body {
         padding: 0;
         /* margin-left: 25rem; */
     }
+    .top-heading {
+        /* background-color: aqua; */
+        display: block;
+        max-width: 18rem;
+        max-height: 34rem;
+        width: 5rem;
+        margin-left: -4rem;
+        height: 7rem;
+    }
+    .row {
+        /* background-color: bisque; */
+        text-align: left;
+        /* max-height: max-content; */
+        max-height: 35rem;
+        width: 26.2rem;
+
+    }
+    .col-md-6 {
+        /* background-color: aliceblue; */
+        text-align: left;
+        max-width: min-content;
+        padding: 1rem;
+    }
+    .card-left {
+        /* background-color: #ff3030; */
+        /* text-align: justify; */
+        margin-top: -1rem;
+        min-width: 10rem;
+        max-width: 3rem;
+        margin-left: 3rem;
+        width: max-content;
+        width: 20em;
+        /* padding-right: -4rem; */
+    }
+    .card-body{
+        /* background-color: cadetblue; */
+        width: 9rem;
+        font-size: .5rem;
+        max-height: 2rem;
+    }
+    .card-title{
+        /* background-color: azure; */
+        font-size: .5rem;
+        max-width: 7rem;
+    }
+    .card-text-my-2{
+        /* background-color: violet; */
+        width: 6rem;
+        font-size: .5rem;
+    }
+    .card-right{
+        /* background-color: blue; */
+        width: 6rem;
+        padding-bottom: 1rem;
+        margin-left: -1rem;
+        margin-top: -1rem;
+        font-size: .4rem;
+    }
+    .pov-card {
+        /* background-color: aqua; */
+        margin-left: 16rem;
+        margin-bottom: -20rem;
+        top: -32rem;
+        width: 5px;
+        max-width: 10rem;
+        /* max-height: 14rem; */
+    }
+    .top-card{
+        /* background-color: darkgreen; */
+        max-height: 4rem;
+       width: 7rem;
+       max-width: 3rem;
+    }
+    .card-section2-main{
+        /* background-color:cyan; */
+        width: 26rem;
+        /* right: 3px; */
+        margin-left: 14rem;
+        margin-bottom: 7rem;
+    }
+    .card-section4-left-main{
+        /* background-color: plum; */
+        width: 14rem;
+        margin-left: -1rem;
+    }
+    .section4-right-main .card{
+        /* background-color: aquamarine; */
+        width: 14rem;
+        margin-left: -2rem;
+    }
+   
 }
 
 @media only screen and (max-width: 420px) {
+    
     .top {
         margin-bottom: 5px;
         display: block;
@@ -194,14 +286,17 @@ body {
     .top-heading {
         /* background-color: aqua; */
         display: block;
-        max-width: min-content;
-        max-height: 60rem;
+        max-width: 23rem;
+        max-height: 67rem;
+        width: 5rem;
+        margin-left: -2.5rem;
+        height: 7rem;
     }
     .row {
         /* background-color: bisque; */
         text-align: left;
         max-height: max-content;
-        width: 100%;
+        width: 23rem;
     }
     .col-md-6 {
         /* background-color: aliceblue; */
@@ -213,45 +308,107 @@ body {
         /* background-color: #ff3030; */
         text-align: justify;
         margin-top: 1rem;
+        max-width: 12rem;
+        
+    }
+    .card-body{
+        /* background-color: cadetblue; */
+        width: 19rem;
+        font-size: .5rem;
+        max-height: 2rem;
+    }
+    .card-title{
+        /* background-color: azure; */
+        font-size: .5rem;
+        max-width: 12rem;
+    }
+    .card-text-my-2{
+        /* background-color: violet; */
+        width: 6rem;
+        font-size: .5rem;
     }
 .card-right{
     /* background-color: blue; */
-    width: 15rem;
+    width: 8rem;
     padding-bottom: 3rem;
+    margin-left: 14rem;
+    margin-top: -24rem;
+    font-size: .4rem;
 }
+.card-logo{
+/* background-color: hotpink; */
+font-size: .5rem;
+}
+
+
 .pov-card {
     /* background-color: aqua; */
-    margin-left: 48rem;
-    margin-bottom: -54rem;
-    top: -31rem;
+    margin-left: -1rem;
+    margin-bottom: 9rem;
+    top: rem;
+    width: 2px;
+    /* max-height: 14rem; */
+}
+.top-card{
+    /* background-color: darkgreen; */
+    max-height: 4rem;
+   width: 22rem;
+}
+
+.pov-card-right-col-md-12{
+    /* background-color: darkorange; */
+    width: 23rem;
+}
+.pov-card-right-reader-editor-col-md-12-my-4{
+/* background-color: darkkhaki; */
+    margin-bottom: 5em;
+    width: 23rem;
 }
 .card-section2-main{
     /* background-color:cyan; */
-    width: min-content;
-    margin-bottom: -4rem;
+    width: 23rem;
+    right: 3px;
+    margin-left: 23rem;
+    margin-bottom: 15rem;
 }
 .col-md-3{
     /* background-color: gray; */
-    display: block;
-    width: min-content;
-    padding-right: 10rem;
+    /* display: block; */
+    padding-right: 2px;
+    width: 11.3rem;
+    margin-left: 2px;
 }
 .card-section2-my-2{
     /* background-color: greenyellow; */
-width: 6rem;
+width: 10rem;
 }
 .card-body-section2-my-2{
     /* background-color: blueviolet; */
-    width: 15rem;
+    width: 11rem;
 }
 .card-section4-left-main{
     /* background-color: plum; */
-    width: 30rem;
+    width: 23rem;
+    margin-left: -1rem;
 }
-.section4-right-main{
-    /* background-color: palegreen; */
-    margin-left: 35rem;
-    margin-top: -7rem;
+.section4-right-main {
+    /* background-color: palegoldenrod; */
+    margin-left: -1rem;
+    width: 23rem;
+    margin-top: rem;
+}
+.section4-right-main .card{
+    /* background-color: aquamarine; */
+    width: 22rem;
+}
+.card-my-2{
+    /* background-color: darkolivegreen; */
+    /* width: 2rem;
+    margin-left: 20rem; */
+}
+.col-md-6{
+    /* background-color: darkmagenta; */
+    width: 22rem;
 }
 .card-section5-main{
     /* background-color: tan; */
@@ -261,10 +418,7 @@ width: 6rem;
     /* background-color: yellow; */
     max-block-size: 56px;
 }
-.col-md-6{
-    /* background-color: indianred; */
-    
-}
+
 
 }
 .icons p {

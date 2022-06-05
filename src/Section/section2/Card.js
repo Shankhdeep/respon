@@ -24,7 +24,7 @@ function Card(props) {
             <div className='card-section2-main' 
             // style={{minHeight:"4rem"}}
             >
-                <h4 style={{ fontSize: "15px", marginLeft: "6px", display: "inline-block" }}>Latest<div style={{ background: "red", display: "inline-block", width: "70rem  ", height: "3.5px", marginLeft: "3px", marginBottom:"3px" }}></div></h4>
+                <h4 style={{ fontSize: "15px", marginLeft: "6px", display: "inline-block" }}>Latest<div style={{ background: "red", display: "inline-block", width: "19rem  ", height: "3.5px", marginLeft: "3px", marginBottom:"3px" }}></div></h4>
                 { props.data?(
                 <div className="row">
 

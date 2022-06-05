@@ -28,20 +28,21 @@ function SectionLeftCard(props) {
     return (
         
         <section className='top-heading'  style={{ marginTop:"2rem", paddingBottom:"2rem", paddingTop:"1rem" }} >
-            <h4 style={{ fontSize: "15px", marginLeft: "10px", display: "inline-block", fontWeight:"600" }}>Top Stories <div className='line' style={{ background: "red", display: "inline-block", width: "670px", height: "3.5px", marginBottom:"3px", marginLeft:"15px" }}></div></h4>
+            <h4 style={{ fontSize: "1rem", marginLeft: "10px", display: "inline-block", fontWeight:"600" }}>Top Stories 
+            <div className='line' style={{ background: "red", display: "inline-block", width: "16rem", height: "3.5px", marginBottom:"3px", marginLeft:"15px" }}></div></h4>
             {
                      props.data?(
                          <>
             <div className="row">
                 <div className="col-md-6">
                  
-                    <div className='card-left' style={{width: "23rem", height:"20rem", marginLeft: "10px"}}>
+                    <div className='card-left' style={{width: "24rem", height:"20rem", marginLeft: "1px"}}>
                         <img src={props.data[0].image_url} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h6 className="card-title"style={{ fontWeight:"600", width:"24rem" }}>{isText(props.data[0].title)}</h6>
-                            <span ><i className="fa-solid fa-circle-user"></i><span className="logo-text">{isCreator(props.data[0].creator)}</span>
+                            <span ><i className="fa-solid-fa-circle-user"></i><span className="logo-text">{isCreator(props.data[0].creator)}</span>
                             </span>
-                            <p className="card-text my-2">{isDescription(props.data[0].description)}...</p>
+                            <p className="card-text-my-2">{isDescription(props.data[0].description)}...</p>
                             
 
                         </div>
@@ -51,25 +52,25 @@ function SectionLeftCard(props) {
                 <div className="col-md-6">
 
                     <div className=" card-right">
-                        <div className="card-body right-card">
+                        <div className="card-body-right-card">
                             <p>{isText(props.data[1].title)}</p>
                             <span className='card-logo'><i className="fa-solid fa-circle-user"></i> <span className="logo-text">{isCreator(props.data[1].creator)}</span></span>
                         </div>
                     </div>
                     <div className=" my-2 card-right">
-                        <div className="card-body right-card">
+                        <div className="card-body-right-card">
                             <p>{isText(props.data[2].title)}</p>
                             <span className='card-logo'><i className="fa-solid fa-circle-user"></i> <span className="logo-text">{isCreator(props.data[2].creator)}</span></span>
                         </div>
                     </div>
                     <div className="my-2 card-right">
-                        <div className="card-body right-card">
+                        <div className="card-body-right-card">
                             <p>{isText(props.data[3].title)}</p>
                             <span className='card-logo'><i className="fa-solid fa-circle-user"></i> <span className="logo-text">{isCreator(props.data[3].creator)}</span></span>
                         </div>
                     </div>
                     <div className=" my-2 card-right">
-                        <div className="card-body right-card">
+                        <div className="card-body-right-card">
                             <p>{isText(props.data[4].title)}
                             </p>
                             <span className='card-logo'><i className="fa-solid fa-circle-user"></i><span className="logo-text">{isCreator(props.data[4].creator)}</span></span>
@@ -77,10 +78,10 @@ function SectionLeftCard(props) {
                     </div>
 
                     <div className="my-2 card-right">
-                        <div className="card-body right-card">
+                        <div className="card-body-right-card">
                             <p>{isText(props.data[5].title)}
                             </p>
-                            <span className='card-logo'><i className="fa-solid fa-circle-user"></i><span className="logo-text">{isCreator(props.data[5].creator)}</span></span>
+                            <span className='card-logo'><i className="fa-solid-fa-circle-user"></i><span className="logo-text">{isCreator(props.data[5].creator)}</span></span>
 
                         </div>
                     </div>

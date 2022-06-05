@@ -12,7 +12,7 @@ function Section4_left(props) {
     return (
         
         <div className="card-section4-left-main">
-        <h4 style={{ fontSize: "15px", marginLeft: "6px", display: "inline-block"}}>Spotlight<div style={{ background: "red", display: "inline-block", width: "23rem", height: "3.5px",marginLeft:"3px", marginBottom:"3px" }}></div></h4>
+        <h4 style={{ fontSize: "15px", marginLeft: "6px", display: "inline-block"}}>Spotlight<div style={{ background: "red", display: "inline-block", width: "22rem", height: "3.5px",marginLeft:"3px", marginBottom:"3px" }}></div></h4>
        { props.data?(
         <div className='card card-section4-left ' style={{maxWidth:"28rem"}}>
             <img src={props.data[0].image_url} onError={(e)=>{e.target.onerror = null; e.target.src={def}}} className='Card image cap'  alt="" />
